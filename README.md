@@ -7,3 +7,5 @@ git commit -m "first commit"
 git remote add origin https://github.com/greatlqp/test.git
 git push -u origin master
 ```
+
+# local : git pull
