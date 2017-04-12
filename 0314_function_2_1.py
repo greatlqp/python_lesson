@@ -1,6 +1,10 @@
-def summ(a, b): # a,a+1,a+2,...,b summary  
+import fibo
+
+def summ(a, b):         
     if a >= b:
         return b
-    else:                       # a=3, b=7
-        return a + summ(a+1,b)  # 3 + 3+1, 
-print(summ(3,7))
+    else:
+        return a+summ(a+1,b)
+
+print(summ(3,9))
+     
